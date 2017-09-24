@@ -152,7 +152,7 @@ footer {
 
 form.contact-form input[type=text] {
 	height: 30px;
-	width: 100%;
+	width: 97%;
 	margin-bottom: 15px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -160,7 +160,7 @@ form.contact-form input[type=text] {
 
 form.contact-form textarea {
 	height: 200px;
-	width: 100%;
+	width: 97%;
 	border: 1px solid #cccccc;
 	resize: none;
 	padding: 10px;
@@ -178,7 +178,6 @@ form.contact-form button{
 div.game {
 	width: 275px;
 	height: 200px;
-	border: 1px dotted red;
 	padding-top: 125px;
 	background-size: cover;
 	background-position: center center;
