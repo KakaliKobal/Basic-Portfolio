@@ -221,6 +221,95 @@ div.game.improve{
 	background-image: url(../images/improve.jpeg);
 }
 
+@media screen and (max-width: 980px) {
+	#main-bio div.game {
+		float: none;
+		margin-left: 0;
+		margin-bottom: 35px;
+	}
+	#main-bio {
+		width: initial;	
+	}
+	#contact-info {
+		float: left;
+		margin-left: 25px;
+		width: initial;
+	}
+	.responsive-container {
+		width: 750px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#main-bio {
+		float: none;
+		width: 585px;
+		margin-left: 20px;
+		margin-bottom: 35px;
+		box-sizing: content-box;
+    	display: table;
+    	margin-right: 20px;
+	}
+	
+	#contact-info {
+		float: none;
+		width: 647px;
+		margin-left: 20px;
+	}
+	.name {
+		margin-left: 20px;
+
+	}
+	.link {
+		margin-right: 20px;
+	}
+	#main-bio div.game {
+		float: left;
+		margin: 0 35px 35px 0;
+	}
+	#main-bio div.game:nth-child(odd){
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	.responsive-container {
+		width: 100%;
+	}
+	#main-bio div.game {
+		float: none;
+		margin-left: 0;
+		margin-bottom: 35px;
+		margin-right: 0;
+	}
+	#main-bio {
+		width: initial;	
+	}
+	#contact-info {
+		width: 374px;
+	}
+	.name {
+		float: none;
+		margin-left: 0;
+	}
+
+	.link {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.link a {
+		margin: 0 9%;
+	}
+	div.game {
+		width: 500px;
+		height: 350px;
+	}
+	.title {
+		margin-top: 150px;
+	}
+}
 
 
 
